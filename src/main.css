@@ -1,0 +1,9 @@
+body {
+    width: auto;
+    height: auto + 1000px;
+    background-color: #000000 !important;
+}
+
+.background {
+    background-color: #000000;
+}
