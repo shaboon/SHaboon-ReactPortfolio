@@ -2,43 +2,46 @@ import React from "react";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs justify-content-end">
+    <ul className="fixed text-white">
+      <li className="nav-item">
+        <h1 className="text-white">Sean Haboon</h1>
+      </li>
       <li className="nav-item">
         <a
           href="/"
-          onClick={() => handlePageChange("Home")}
-          className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+          onClick={() => handlePageChange("About")}
+          className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
-          Home
+          About
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="/Characters"
-          onClick={() => handlePageChange("Characters")}
+          href="/Portfolio"
+          onClick={() => handlePageChange("Portfolio")}
           className={
-            currentPage === "Characters" ? "nav-link active" : "nav-link"
+            currentPage === "Portfolio" ? "nav-link active" : "nav-link"
           }
         >
-          Characters
+          Portfolio
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="/Lists"
-          onClick={() => handlePageChange("Lists")}
-          className={currentPage === "Lists" ? "nav-link active" : "nav-link"}
+          href="/Resume"
+          onClick={() => handlePageChange("Resume")}
+          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
-          Lists
+          Resume
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="/Game"
-          onClick={() => handlePageChange("Game")}
-          className={currentPage === "Game" ? "nav-link active" : "nav-link"}
+          href="/Contact"
+          onClick={() => handlePageChange("Contact")}
+          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
-          Game
+          Contact
         </a>
       </li>
     </ul>
