@@ -1,7 +1,15 @@
 export default function About() {
   return (
-    <div className="container mx-auto bg-light">
-      <p className="text-dark">Hello World</p>
+    <div className="content">
+      <div className="">
+        <p className="text-dark">Bio</p>
+      </div>
+      <div className="">
+        <p className="text-dark">Education</p>
+      </div>
+      <div>
+        <p className="text-dark">Skills</p>
+      </div>
     </div>
   );
 }

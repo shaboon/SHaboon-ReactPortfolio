@@ -1,7 +1,15 @@
 export default function Portfolio() {
   return (
-    <div className="container mx-auto bg-light">
-      <p className="text-dark">Hello World</p>
+    <div className="content">
+      <div className="img">
+        <img src="" alt="" />
+      </div>
+      <div className="current">
+        <h1>Current Project</h1>
+      </div>
+      <div className="projects">
+        <h1 className="slidename">Loading...</h1>
+      </div>
     </div>
   );
 }
