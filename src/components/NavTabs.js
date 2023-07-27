@@ -2,9 +2,12 @@ import React from "react";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="fixed flex bg-gray-100 w-screen drop-shadow-lg">
+    <ul className="fixed flex bg-gray-100 w-screen drop-shadow-lg font-jura">
       <li className="m-2 mr-4">
-        <h1 className="">Sean Haboon</h1>
+        <h1 className="text-gray-800">Sean Haboon</h1>
+      </li>
+      <li className="m-2 mr-4">
+        <h1>|</h1>
       </li>
       <li className="m-2 mr-4">
         <a

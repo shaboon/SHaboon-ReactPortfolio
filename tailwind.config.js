@@ -4,7 +4,9 @@ module.exports = {
   darkMode: true, // or 'media' or 'class'
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      jura: ["Jura", "sans-serif"],
+    },
   },
   plugins: [],
 };
