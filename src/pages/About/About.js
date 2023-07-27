@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="content">
+    <div className="content m-12">
       <div className="">
         <p className="text-dark">Bio</p>
       </div>
