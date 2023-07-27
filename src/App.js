@@ -20,26 +20,31 @@ export default function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="flex columns-2">
+    <div className="bg-gray-800">
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div className="bg-light">
-        <img className="selfie" src={selfie} alt="picture of Sean Haboon" />
-        <ul className="nav nav-tabs justify-content-end">
-          <li className="nav-item">
-            <h1 className="left light">Sean Haboon</h1>
-          </li>
-        </ul>
-      </div>
-      ;
-      <div>
-        <Router>
-          <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/Portfolio" element={<Portfolio />} />
-            <Route path="/Resume" element={<Resume />} />
-            <Route path="/Contact" element={<Contact />} />
-          </Routes>
-        </Router>
+      <div className="flex grid-columns-2">
+        <div className="w-1/3">
+          <img
+            className="selfie w-50 h-65"
+            src={selfie}
+            alt="picture of Sean Haboon"
+          />
+          <ul className="flex">
+            <li className="nav-item">
+              <h1 className="text-red-400">Sean Haboon</h1>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <Router>
+            <Routes>
+              <Route path="/" element={<About />} />
+              <Route path="/Portfolio" element={<Portfolio />} />
+              <Route path="/Resume" element={<Resume />} />
+              <Route path="/Contact" element={<Contact />} />
+            </Routes>
+          </Router>
+        </div>
       </div>
     </div>
   );

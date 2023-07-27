@@ -20,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
