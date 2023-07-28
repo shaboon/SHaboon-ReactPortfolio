@@ -9,11 +9,11 @@ export default function Home() {
         method="post"
         encType="text/plain"
       >
-        <input type="text" name="name" placeholder="Name" />
-        <input type="email" name="email" placeholder="Email" />
-        <input type="text" name="subject" placeholder="Subject" />
-        <textarea name="message" placeholder="Message"></textarea>
-        <input type="submit" value="Send" />
+        <input className="" type="text" name="name" placeholder="Name" />
+        <input className="" type="email" name="email" placeholder="Email" />
+        <input className="" type="text" name="subject" placeholder="Subject" />
+        <textarea className="" name="message" placeholder="Message"></textarea>
+        <input className="" type="submit" value="Send" />
       </form>
     </div>
   );

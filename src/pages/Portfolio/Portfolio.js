@@ -8,6 +8,7 @@ export default function Portfolio() {
         <h1>Current Project</h1>
       </div>
       <div className="projects">
+        <h1>Projects</h1>
         <h1 className="slidename">Loading...</h1>
       </div>
     </div>
