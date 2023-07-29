@@ -26,10 +26,10 @@ export default function Resume() {
         <div>
           <h2>Thunderbird Molding Greensboro</h2>
 
-          <p>GAP General Apprentice</p>
+          <h3>GAP General Apprentice</h3>
           <p>2019 - 2022</p>
 
-          <p>GAP General Apprentice</p>
+          <h3>GAP General Apprentice</h3>
           <p>2017 - 2019</p>
         </div>
       </div>

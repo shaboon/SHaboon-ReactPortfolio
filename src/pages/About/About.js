@@ -2,8 +2,8 @@ export default function About() {
   return (
     <div className="content m-12">
       <div className="">
-        <h2 className="text-dark">Bio</h2>
-        <p className="text-dark">
+        <h1 className="text-xl mb-2 font-bold">Bio</h1>
+        <p className="">
           I grew up in Greensboro NC and lived there for 23 years. From a young
           age, I have always been drawn to technology and seeked ways to break
           into the area. As I grew older, I moved toward mechanical engineering
@@ -17,17 +17,18 @@ export default function About() {
         </p>
       </div>
 
-      <div className="flex flex-wrap grid-cols-2 m-4">
-        <div className="m-5">
-          <h2 className="text-dark">Education</h2>
-          <p className="text-dark">UNCC Full Stack Web Development Bootcamp</p>
-          <p className="text-dark">GTCC</p>
-          <p className="text-dark">
+      <div className="flex flex-wrap grid-cols-2 place-content-center m-12">
+        <div className="mx-12">
+          <h2 className="font-bold">Education</h2>
+          <p className="">UNCC Full Stack Web Development Bootcamp</p>
+          <p className="">GTCC</p>
+          <p className="">
             GAP ThunderBird Molding Apprentice - Quality Engineer
           </p>
         </div>
-        <div className="m-5">
-          <h2 className="text-dark">Skills</h2>
+
+        <div className="mx-12">
+          <h2 className="font-bold">Skills</h2>
           <ul className="list-disc">
             <li>HTML</li>
             <li>CSS</li>
