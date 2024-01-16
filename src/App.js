@@ -39,6 +39,10 @@ export default function App() {
               <h1 className="text-red-400">Sean Haboon</h1>
             </li>
             <li className="m-2 mr-4">
+              <a href="https://www.linkedin.com/in/sean-haboon-6494501a7/">
+                Go to my LinkedIn
+              </a>
+              <br></br>
               <a href="mailto:shaboon.dev@gmail.com">shaboon.dev@gmail.com</a>
             </li>
           </ul>

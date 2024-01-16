@@ -19,6 +19,13 @@ export default function Resume() {
         <h1>Experience</h1>
 
         <div>
+          <h2>Credits</h2>
+          <p>UNCC Full-Stack Completion Certifcate</p>
+          <p>IKM HTML5 | 89</p>
+          <p>IKM React.Js | 62</p>
+        </div>
+
+        <div>
           <h2>UNCC Full-Stack Bootcamp Alumini</h2>
           <p>2023 - 2023</p>
         </div>
@@ -26,7 +33,7 @@ export default function Resume() {
         <div>
           <h2>Thunderbird Molding Greensboro</h2>
 
-          <h3>GAP General Apprentice</h3>
+          <h3>Quality Engineer</h3>
           <p>2019 - 2022</p>
 
           <h3>GAP General Apprentice</h3>
