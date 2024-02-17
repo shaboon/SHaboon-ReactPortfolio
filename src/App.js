@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 import NavTabs from "./components/NavTabs";
 
@@ -21,7 +22,24 @@ export default function App() {
 
   return (
     <div className="w-screen h-3000 mt-0 bg-gradient-to-b from-gray-600 to-gray-800 custom-font">
-      <div className="fixed mt-0 filter drop-shadow-xl z-10 font-extrabold">
+      <Parallax pages={3}>
+        <ParallaxLayer offset={0} speed={0.5}>
+          <p className="landing-layer fixed mt-0 filter drop-shadow-xl z-10 font-extrabold">
+            Page1
+          </p>
+        </ParallaxLayer>
+        <ParallaxLayer offset={1} speed={0.5}>
+          <p className="landing-layer fixed mt-0 filter drop-shadow-xl z-10 font-extrabold">
+            Page2
+          </p>
+        </ParallaxLayer>
+        <ParallaxLayer offset={2} speed={0.5}>
+          <p className="landing-layer fixed mt-0 filter drop-shadow-xl z-10 font-extrabold">
+            Page 3
+          </p>
+        </ParallaxLayer>
+      </Parallax>
+      {/* <div className="fixed mt-0 filter drop-shadow-xl z-10 font-extrabold">
         <NavTabs
           currentPage={currentPage}
           handlePageChange={handlePageChange}
@@ -58,7 +76,7 @@ export default function App() {
             </Routes>
           </Router>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
