@@ -23,18 +23,22 @@ export default function App() {
   return (
     <div className="w-screen h-3000 mt-0 bg-gradient-to-b from-gray-600 to-gray-800 custom-font">
       <Parallax pages={3}>
-        <ParallaxLayer offset={0} speed={0.5}>
-          <p className="landing-layer fixed mt-0 filter drop-shadow-xl z-10 font-extrabold">
+        <ParallaxLayer
+          offset={0}
+          speed={0.5}
+          className="from-gray-600 to-gray-950"
+        >
+          <p className="landing-layer fixed mt-0 filter drop-shadow-xl z-10 font-extrabold from-gray-600 to-gray-800">
             Page1
           </p>
         </ParallaxLayer>
         <ParallaxLayer offset={1} speed={0.5}>
-          <p className="landing-layer fixed mt-0 filter drop-shadow-xl z-10 font-extrabold">
+          <p className="landing-layer fixed mt-0 filter drop-shadow-xl z-10 font-extrabold from-gray-600 to-gray-800">
             Page2
           </p>
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={0.5}>
-          <p className="landing-layer fixed mt-0 filter drop-shadow-xl z-10 font-extrabold">
+          <p className="landing-layer fixed mt-0 filter drop-shadow-xl z-10 font-extrabold from-gray-600 to-gray-800">
             Page 3
           </p>
         </ParallaxLayer>
