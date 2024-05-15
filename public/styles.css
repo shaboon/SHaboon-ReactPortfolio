@@ -778,10 +778,6 @@ video {
           filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-html {
-  background: black;
-}
-
 @media (min-width: 1024px) {
   .lg\:order-1 {
     order: 1;
