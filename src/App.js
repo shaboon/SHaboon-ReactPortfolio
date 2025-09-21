@@ -22,7 +22,7 @@ export default function App() {
 
   return (
     <div className="w-screen h-3000 mt-0 bg-gradient-to-b from-gray-600 to-gray-800 custom-font">
-      <Parallax pages={3}>
+      {/* <Parallax pages={3}>
         <ParallaxLayer
           offset={0}
           speed={0.5}
@@ -42,8 +42,8 @@ export default function App() {
             Page 3
           </p>
         </ParallaxLayer>
-      </Parallax>
-      {/* <div className="fixed mt-0 filter drop-shadow-xl z-10 font-extrabold">
+      </Parallax> */}
+      <div className="fixed mt-0 filter drop-shadow-xl z-10 font-extrabold">
         <NavTabs
           currentPage={currentPage}
           handlePageChange={handlePageChange}
@@ -80,7 +80,7 @@ export default function App() {
             </Routes>
           </Router>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
